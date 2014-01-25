@@ -28,19 +28,22 @@ global.MyFunction = function () {
   function myLocalFunction () {
   }
 
-  // Object properties must either be lower_snake_case or lowerCamelCase
+  // Object properties must either be lowerCamelCase or lower_snake_case
   // Choose which ever one better fits the context in which it is defined
 
-  // It's generally best to use lower_snake_case
+  // It's generally best to use lowerCamelCase
   var obj = {
-    some_property: 10
+    someProperty: 10
   };
 
-  // but in contexts like DOM, lowerCamelCase is more consistent
+  // especially in contexts like DOM for consistancy
   var other_obj = {
     className: 'some-class-name',
     nodeType: 'input'
   };
+
+  // but when consuming data from a JSON API which uses lower_snake_case
+  // don't be wasteful and leave it how it is
 })();
 ```
 
