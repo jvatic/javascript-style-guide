@@ -45,6 +45,11 @@ JavaScript Style Guide
 
 - Use the `(function (global) {})(this)` pattern to reference the global scope
 
+
+## Discussion
+
+I'm interested in discussing the merits of each point. These guidelines are meant to promote readability and maintainability. Open an issue to discuss an improvement (please keep each issue focused on one thing, open multiple issues if needed), or submit a pull request to suggest a change.
+
 ## TODO
 
 - Write example js files demonstrating each point (include link next to each item)
