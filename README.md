@@ -7,7 +7,7 @@ JavaScript Style Guide
 
 - Use single tabs for indentation
 
-- Variables should be lowerCamelCase except for CONSTANTS and CtorFunctions
+- Variables should be lowerCamelCase except for CONSTANTS, CtorFunctions, and GlobalObjects
 
 - Temporary variables should be prefixed with a double underscore
 
